@@ -1,0 +1,119 @@
+/* Basic Style */
+body{
+    background: #ccc;
+    text-align: center;
+    
+}
+.container {
+    width: 20px;
+    height: 320px;
+}
+
+/* resize images */
+.container img {
+    width: 25%;
+    height: auto;
+}
+.btn, 
+.btn:visited {
+	color: #fff;
+	background: black;
+	box-shadow: 0px 3px 0px 0px #01192e;
+	padding: 8px 22px;
+	font-size: 18px;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 300;
+	
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.btn:hover, 
+.btn:visited:hover,
+.btn:focus, 
+.btn:visited:focus {
+	background: black;
+}
+
+.btn:active, 
+.btn:visited:active {
+	box-shadow: 0px 1px 0px 0px #01192e;
+}
+
+.wrapper {
+  width: 90%;
+  background: #fff;
+  padding: 10px;
+  text-align: justify;
+  display: block;
+}
+
+.wrapper div{
+  display: none;
+}
+
+img{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Checkbox Hack */
+
+input[type=radio] {
+	opacity: 0;
+}
+
+label { 
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Default State */
+/* Toggled State */
+#english:checked ~ .wrapper .english{
+   display: block;
+}
+
+#english ~ .wrapper .english{
+   display: none;
+}
+
+#english:checked ~ .wrapper .german{
+  display: none;
+}
+
+#frans ~ .wrapper .frans{
+  display: none;
+}
+
+#frans:checked ~ .wrapper .english{
+  display: none;
+}
+
+#frans:checked ~ .wrapper .frans{
+  display: block;
+}
+
+
+#nederlands ~ .wrapper .nederlands{
+  display: none;
+}
+
+#nederlands:checked ~ .wrapper .nederlands{
+  display: none;
+}
+
+#nederlands:checked ~ .wrapper .nederlands{
+  display: block;
+}
+
