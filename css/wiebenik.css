@@ -13,6 +13,11 @@ body{
 .container img {
     width: 25%;
     height: auto;
+    display: block;
+}
+.profilepik{
+    width: 15%;
+    border-radius: 50%;
 }
 .btn, 
 .btn:visited {
