@@ -4,16 +4,15 @@ body{
     text-align: center;
     
 }
-.container {
-    width: 20px;
-    height: 320px;
-}
 
 /* resize images */
 .container img {
     width: 25%;
     height: auto;
     display: block;
+}
+td{
+    width:  505px;
 }
 .profilepik{
     width: 15%;
@@ -121,4 +120,3 @@ label {
 #nederlands:checked ~ .wrapper .nederlands{
   display: block;
 }
-
