@@ -1,0 +1,39 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width:100%;
+    height: 100%;
+    background-image: url(../img/home.jpg);
+}
+.container{
+    
+    color: white;
+}
+nav{
+    background-image: url(../img/home.jpg)
+}
+@media (min-width: 992px)
+.masthead {
+    height: 100px;
+}
+.d-flex {
+    display: -ms-flexbox!important;
+    /* display: flex!important; */
+}
+.mb-1{
+    margin-top: 350px;
+    font-size: 600%;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 170px;
+    line-height: 30px;
+    background-color: gray;
+    padding-left: 25px;
+}
+.link{
+    color: black;
+}
