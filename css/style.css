@@ -1,8 +1,3 @@
-/* -------------------------------- 
-
-Primary style
-
--------------------------------- */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -13,18 +8,20 @@ html:not(.navbar){
 nav{
     height: 60px;
     font-size: 100%;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-weight: 400;
 }
 .navbar-brand{
-    font-size: 110%;
+    font-size: 115%;
 }
-body:not(.navbar) {
+body:not(.nav-link) {
   font-size: 1.6rem;
   font-family: "Fira Sans", sans-serif;
   color: #383838;
   background-color: #f8f8f8;
 }
 
-a {
+a{
   color: #7b9d6f;
   text-decoration: none;
 }
