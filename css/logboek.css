@@ -6,3 +6,10 @@ thead{
 .tabel{
     background-color: #bdbbbf;
 }
+.foto:hover img {
+  display: block;
+}
+img {
+  height: auto;
+  display: none
+}
